@@ -2,6 +2,7 @@
 #include <iomanip>
 using namespace std;
 
+//set up functiona
 void swapTwoValues(int &, int &);
 void swapTwoValues(float &, float &);
 void getinput(int &, int &);
@@ -9,9 +10,11 @@ void getinput(float &, float &);
 
 int main()
 {
+	//defining variables
 	int num1, num2;
 	float fnum1, fnum2;
 
+	//outputting swap statements to user
 	getinput(num1, num2);
 	cout << " Before Swap " << setw(5) << num1 << setw(5) << num2 << setw(5) << endl;
 	swapTwoValues(num1, num2);
@@ -25,6 +28,7 @@ int main()
 
 }
 
+//getting inputs from user
 void getinput(int &n1, int &n2) {
 	// cout << "Enter 2 integers: ";
 	cin >> n1 >> n2;
@@ -37,6 +41,7 @@ void getinput(float &n1, float &n2) {
 	cout << endl;
 }
 
+//function that swaps two values
 void swapTwoValues(int &n1, int &n2) {
 	int temp;
 	temp = n1;
