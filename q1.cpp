@@ -2,7 +2,7 @@
 #include <iomanip>
 using namespace std;
 
-//set up functiona
+//set up functions
 void swapTwoValues(int &, int &);
 void swapTwoValues(float &, float &);
 void getinput(int &, int &);
