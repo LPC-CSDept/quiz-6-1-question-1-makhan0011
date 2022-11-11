@@ -5,9 +5,9 @@ using namespace std;
 void swapTwoValues(int &, int &);
 void swapTwoValues(float &, float &);
 void getinput(int &, int &);
-void getinput(float &, float );
+void getinput(float &, float &);
 
-int main)
+int main()
 {
 	int num1, num2;
 	float fnum1, fnum2;
